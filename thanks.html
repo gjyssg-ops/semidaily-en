@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for Subscribing!</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a202c;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            max-width: 500px;
+            text-align: center;
+        }
+        .check {
+            width: 60px;
+            height: 60px;
+            background: #48bb78;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 28px;
+            color: white;
+        }
+        h1 { font-size: 1.8em; margin-bottom: 15px; }
+        p { color: #4a5568; margin-bottom: 12px; }
+        .cta {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 28px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        .cta:hover { background: #5a67d8; }
+        footer {
+            margin-top: 30px;
+            font-size: 0.85em;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="check">✓</div>
+        <h1>You're Subscribed!</h1>
+        <p>Welcome to <strong>China Semi-Tech Daily</strong>.</p>
+        <p>Your first daily report will arrive in your inbox tomorrow at <strong>08:30 CST</strong>.</p>
+        <p>Meanwhile, check out the latest report below.</p>
+        <a class="cta" href="https://github.com/gjyssg-ops/semidaily-en/releases/tag/daily-reports">View Latest Report →</a>
+        <footer>
+            <p>Data from SSE & SZSE | Not investment advice</p>
+        </footer>
+    </div>
+</body>
+</html>

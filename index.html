@@ -138,11 +138,28 @@
     </header>
 
     <div class="container">
-        <div class="cta-box">
+        <div class="cta-box" id="subscribe">
             <h2>📧 Get the Daily Briefing</h2>
             <p>1,584 semiconductor companies tracked across SSE & SZSE. Delivered to your inbox every weekday at 08:30 CST.</p>
-            <a href="YOUR_CONVERTKIT_FORM_LINK" class="btn">Subscribe for Free</a>
-            <p style="margin-top: 15px; font-size: 0.9em; color: #a0aec0;">Join 0+ investors and analysts · Unsubscribe anytime</p>
+            <form id="subForm" style="max-width:400px;margin:20px auto;">
+                <input type="email" id="emailInput" placeholder="your@email.com" required style="padding:12px 16px;width:100%;border:2px solid #e2e8f0;border-radius:8px;font-size:1em;margin-bottom:12px;">
+                <button type="submit" class="btn" style="width:100%;border:none;cursor:pointer;">Subscribe for Free</button>
+            </form>
+            <p style="margin-top:15px;font-size:0.9em;color:#a0aec0;">
+                Or email <a href="mailto:gjyssg@gmail.com?subject=Subscribe%20SemiDaily" style="color:#2c5282;">gjyssg@gmail.com</a> with subject "Subscribe SemiDaily"
+            </p>
+            <p style="margin-top:8px;font-size:0.85em;color:#a0aec0;">Join 0+ investors and analysts · Unsubscribe anytime</p>
+            <script>
+            document.getElementById('subForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                var email = document.getElementById('emailInput').value;
+                var subject = encodeURIComponent('Subscribe SemiDaily');
+                var body = encodeURIComponent('Please add me to the China Semi-Tech Daily mailing list.\n\nEmail: ' + email);
+                window.location.href = 'mailto:gjyssg@gmail.com?subject=' + subject + '&body=' + body;
+                document.getElementById('emailInput').value = '';
+                alert('Thank you! Please send the email to complete your subscription.');
+            });
+            </script>
         </div>
 
         <div class="stats-row">
@@ -296,7 +313,7 @@ Data Sources: Shanghai Stock Exchange, Shenzhen Stock Exchange | Last Updated: 2
     <footer>
         <p>China Semiconductor Capital Briefing · Data sourced from SSE & SZSE</p>
         <p>For informational purposes only. Not investment advice.</p>
-        <p style="margin-top: 10px;"><a href="YOUR_CONVERTKIT_FORM_LINK" style="color: #2c5282;">Subscribe</a> · <a href="YOUR_GUMROAD_LINK" style="color: #2c5282;">Get the Data</a></p>
+        <p style="margin-top: 10px;"><a href="#subscribe" style="color: #2c5282;">Subscribe</a> · <a href="https://github.com/gjyssg-ops/semidaily-en/releases/tag/daily-reports" style="color: #2c5282;">Get the Data</a></p>
     </footer>
 </body>
 </html>
