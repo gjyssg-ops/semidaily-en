@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>China Semi-Tech Daily</title>
+    <link>https://gjyssg-ops.github.io/semidaily-en</link>
+    <description>Daily intelligence on A-share semiconductor IPO &amp; refinancing pipeline. Data-driven insights for investors, analysts, and strategists.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2026 09:00:00 +0800</lastBuildDate>
+    <atom:link href="https://gjyssg-ops.github.io/semidaily-en/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>China Semi-Tech Daily — 2026-05-14</title>
+      <link>https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260514.pdf</link>
+      <guid isPermaLink="true">https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260514.pdf</guid>
+      <pubDate>Thu, 14 May 2026 09:00:00 +0800</pubDate>
+      <description>2026-05-14 Semiconductor IPO &amp; Refinancing Pipeline Update. 1,584 companies tracked.</description>
+    </item>
+
+    <item>
+      <title>China Semi-Tech Daily — 2026-05-14</title>
+      <link>https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260514.pdf</link>
+      <guid isPermaLink="true">https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260514.pdf</guid>
+      <pubDate>Wed, 14 May 2026 09:00:00 +0800</pubDate>
+      <description>2026-05-14 Semiconductor IPO &amp; Refinancing Pipeline Update. 1,584 companies tracked across SSE &amp; SZSE. Download PDF for full details.</description>
+    </item>
+    <item>
+      <title>China Semi-Tech Daily — 2026-05-13</title>
+      <link>https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260513.pdf</link>
+      <guid isPermaLink="true">https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260513.pdf</guid>
+      <pubDate>Tue, 13 May 2026 09:00:00 +0800</pubDate>
+      <description>2026-05-13 Semiconductor IPO &amp; Refinancing Pipeline Update. 1,584 companies tracked across SSE &amp; SZSE. Download PDF for full details.</description>
+    </item>
+    <item>
+      <title>China Semi-Tech Daily — 2026-05-12</title>
+      <link>https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260512.pdf</link>
+      <guid isPermaLink="true">https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260512.pdf</guid>
+      <pubDate>Mon, 12 May 2026 09:00:00 +0800</pubDate>
+      <description>2026-05-12 Semiconductor IPO &amp; Refinancing Pipeline Update. 1,584 companies tracked across SSE &amp; SZSE. Download PDF for full details.</description>
+    </item>
+    <item>
+      <title>China Semi-Tech Daily — 2026-05-11</title>
+      <link>https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260511.pdf</link>
+      <guid isPermaLink="true">https://github.com/gjyssg-ops/semidaily-en/releases/download/daily-reports/daily_20260511.pdf</guid>
+      <pubDate>Sun, 11 May 2026 09:00:00 +0800</pubDate>
+      <description>2026-05-11 Semiconductor IPO &amp; Refinancing Pipeline Update. 1,584 companies tracked across SSE &amp; SZSE. Download PDF for full details.</description>
+    </item>
+  </channel>
+</rss>
